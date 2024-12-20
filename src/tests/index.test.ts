@@ -14,6 +14,7 @@ import { db } from "../__mocks__/db";
 // }));
 
 // Senario 2 Deep mocked
+
 vi.mock("../db");
 
 describe("POST /sum", () => {
